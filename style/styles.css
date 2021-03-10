@@ -9,6 +9,7 @@
 body {
   font-family: 'Kumbh Sans', sans-serif;
   background: var(--dark-cyan);
+  text-align: center;
 }
 
 .container {
@@ -106,7 +107,7 @@ hr {
 }
 
 .top-bg {
-  z-index: 0;
+  z-index: -1;
   position: absolute;
   top: -50%;
   left: 0%;
@@ -115,7 +116,7 @@ hr {
 }
 
 .bottom-bg {
-  z-index: 0;
+  z-index: -1;
   position: absolute;
   bottom: -50%;
   right: 0;
@@ -123,5 +124,6 @@ hr {
   opacity: 0.9;
 }
 
-
+footer {
+  z-index: 99;
 }
